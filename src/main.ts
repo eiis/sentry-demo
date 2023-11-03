@@ -1,7 +1,9 @@
 import { createApp } from "vue";
 import * as Sentry from "@sentry/vue";
+import App  from "./App.vue";
+import "./style.css";
 
-const app = createApp({});
+const app = createApp(App);
 
 Sentry.init({
   app,
